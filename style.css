@@ -199,3 +199,38 @@ h1 em, h2 em { color: var(--accent); font-family: var(--serif); font-weight: 400
   .education-item { grid-template-columns:1fr; gap:5px; }
   .contact-actions { align-items:flex-start; flex-direction:column; gap:17px; }
 }
+
+
+/* Увеличенный размер текста для более комфортного чтения */
+body { font-size: 17px; }
+.nav-menu a { font-size: 13px; }
+.hero-lead { font-size: 17px; }
+.hero-note { font-size: 12px; }
+.text-link { font-size: 13px; }
+.intro-strip div { font-size: 13px; }
+.about-content > p:not(.body-large):not(.editor-note) { font-size: 15px; }
+.credential strong, .rule strong { font-size: 14px; }
+.credential p, .rule p { font-size: 14px; }
+.request-description { font-size: 14px; }
+.card-top { font-size: 11px; }
+.card-select, .selection-hint { font-size: 12px; }
+.heading-row p, .section-description { font-size: 14px; }
+.price-card > p { font-size: 14px; }
+.price-label { font-size: 10px; }
+.price-bottom span { font-size: 12px; }
+.education-item p { font-size: 14px; }
+.education-item > span { font-size: 12px; }
+.contact-copy > p { font-size: 15px; }
+.contact-copy .contact-topic { font-size: 12px; }
+.footer-contacts a { font-size: 13px; }
+.footer-bottom { font-size: 11px; }
+@media(max-width:680px) {
+  body { font-size: 16px; }
+  .nav-menu a { font-size: 14px; }
+  .hero-lead { font-size: 16px; }
+  .intro-strip div { font-size: 10px; }
+  .request-description, .price-card > p, .credential p, .rule p,
+  .education-item p, .contact-copy > p { font-size: 14px; }
+  .card-top { font-size: 10px; }
+  .footer-bottom { font-size: 11px; }
+}
